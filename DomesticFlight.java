@@ -269,7 +269,7 @@ class button3 implements ActionListener
 				new PrintTicket1(sFrom, sTo, sClass, iAdult, iChildren, iInfant, sBookingDate, iPrice, sTime);
 			try
 			{
-//write into data
+// write into data
 				Save2 save2=new Save2(sFrom, sTo, sClass, iAdult, iChildren, iInfant, sBookingDate, iPrice, sTime);
 				ObjectOutputStream OOS1 = new ObjectOutputStream(new FileOutputStream("save2"));
 				for(i=0;i<iCount;i++)
